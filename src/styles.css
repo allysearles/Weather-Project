@@ -1,0 +1,47 @@
+body {
+	box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.2), 0 0 0 2px rgb(245, 245, 245),
+		0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+	margin: 25%;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
+
+img {
+	width: 200px;
+	float: left;
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+	display: inline;
+	margin-top: 0;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;
+	float: right;
+}
+.city-form {
+	width: 40%;
+	float: right;
+}
+.container {
+	display: grid;
+}
+
+.col {
+	display: inline-table;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+}
+.sevendays {
+	width: 100%;
+	margin: 0 auto;
+}
+.row-2 {
+	display: inline;
+	margin-left: 0;
+	margin-right: 0;
+}
