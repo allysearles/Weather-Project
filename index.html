@@ -31,82 +31,94 @@
 	</head>
 	<script src="src/index.js"></script>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-6">
-					<img src="src/weather.jpg" class="logo" alt="weather image" />
-				</div>
-				<div class="col-6">
-					<form id="city-form">
-						<input
-							type="text"
-							id="city-input"
-							placeholder="Enter Your City..."
-						/>
-						<button type="search" id="searchbutton">Search</button>
-					</form>
+		<div class="weather-project-wrapper">
+			<div class="weather-project">
+				<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<h1>Weather Forecast</h1>
+							<img src="src/logo.png" class="logo" alt="weather image" />
+						</div>
+						<div class="col-6">
+							<form id="city-form">
+								<input
+									type="text"
+									id="city-input"
+									placeholder="Enter Your City..."
+								/>
+								<button type="search" id="searchbutton">Search</button>
+							</form>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6"></div>
+						<div class="col-6">
+							<ul>
+								<li class="localcity">Paris</li>
+								<li class="localtemperature">54°</li>
+								<li class="dateandtime">Tuesday Feb. 5th 2023</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<p class="sevendays"><strong>7 DAY FORECAST</strong></p>
+						<div class="row">
+							<div class="col">
+								☀️ <br />
+
+								SUN <br /><br />
+								55°
+							</div>
+							<div class="col">
+								☁️ <br />
+
+								MON <br /><br />
+								52°
+							</div>
+							<div class="col">
+								🌧️ <br />
+
+								TUE <br /><br />
+								65°
+							</div>
+							<div class="col">
+								⛈️ <br />
+
+								WED <br /><br />
+								44°
+							</div>
+							<div class="col">
+								🌧️ <br />
+
+								THU <br /><br />
+								50°
+							</div>
+							<div class="col">
+								⛅ <br />
+
+								FRI <br /><br />
+								53°
+							</div>
+							<div class="col">
+								☀️ <br />
+
+								SAT <br /><br />
+								59°
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-6"></div>
-				<div class="col-6">
-					<ul>
-						<li class="localcity">Paris</li>
-						<li class="localtemperature">54°</li>
-						<li class="dateandtime">Tuesday Feb. 5th 2023</li>
-					</ul>
-				</div>
-			</div>
-			<div>
-				<p class="sevendays"><strong>7 DAY FORECAST</strong></p>
-				<div class="row">
-					<div class="col">
-						☀️ <br />
-
-						SUN <br /><br />
-						55°
-					</div>
-					<div class="col">
-						☁️ <br />
-
-						MON <br /><br />
-						52°
-					</div>
-					<div class="col">
-						🌧️ <br />
-
-						TUE <br /><br />
-						65°
-					</div>
-					<div class="col">
-						⛈️ <br />
-
-						WED <br /><br />
-						44°
-					</div>
-					<div class="col">
-						🌧️ <br />
-
-						THU <br /><br />
-						50°
-					</div>
-					<div class="col">
-						⛅ <br />
-
-						FRI <br /><br />
-						53°
-					</div>
-					<div class="col">
-						☀️ <br />
-
-						SAT <br /><br />
-						59°
-					</div>
-				</div>
-			</div>
+			<small>
+				<a
+					href="https://github.com/allysearles/Weather-Project.git"
+					target="_blank"
+				>
+					Open-source code
+				</a>
+				by @allysearles
+			</small>
 		</div>
-		<a href="https://github.com/allysearles/Weather-Project.git">
-			@allysearles Github
-		</a>
 	</body>
 </html>
