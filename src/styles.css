@@ -13,7 +13,7 @@ body {
 }
 
 img {
-	width: 250px;
+	width: 150px;
 	float: left;
 	margin: 0;
 }
@@ -26,15 +26,47 @@ h1 {
 ul {
 	margin: 0;
 	padding: 0;
-	/* list-style-type: none;
-	display: inline;
-	margin-top: 0;
-	margin-left: 30%;
-	margin-right: 30%;
-	text-align: center;
-	float: right; */
 }
-li {
+ul.sunday {
+	list-style: none;
+}
+ul.monday {
+	list-style: none;
+}
+ul.tuesday {
+	list-style: none;
+}
+ul.wednesday {
+	list-style: none;
+}
+ul.thursday {
+	list-style: none;
+}
+ul.friday {
+	list-style: none;
+}
+ul.saturday {
+	list-style: none;
+}
+
+li.localcity {
+	list-style: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 30px;
+}
+li.localtemperature {
+	list-style: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 30px;
+}
+small.units {
+	font-size: small;
+}
+li.dateandtime {
 	list-style: none;
 	color: black;
 	font-size: 20px;
@@ -58,7 +90,6 @@ li {
 	margin: 5px 5px 5px 5px;
 }
 .sevendays {
-	width: 100%;
 	margin: 0 auto;
 }
 .row-2 {
