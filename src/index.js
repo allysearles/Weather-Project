@@ -91,8 +91,12 @@ let months = [
 ];
 let month = months[now.getMonth()];
 
-let current = document.querySelector(".dateandtime");
-current.innerHTML = `${day} ${hours}:${minute} <br> ${month}${date},${year}`;
+let currentday = document.querySelector(".date");
+currentday.innerHTML = `${month}${date},${year}`;
+
+let currenttime = document.querySelector(".time");
+currenttime.innerHTML = `${day} ${hours}:${minute}`;
+
 
 function searchCity(event) {
 	event.preventDefault();

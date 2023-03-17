@@ -1,5 +1,5 @@
 .weather-project-wrapper {
-	max-width: 600px;
+	max-width: 660px;
 	margin: 0 auto;
 }
 .weather-project {
@@ -13,14 +13,14 @@ body {
 }
 
 img {
-	width: 150px;
+	width: 250px;
 	float: left;
 	margin: 0;
 }
 h1 {
 	color: orange;
 	font-size: 30px;
-	font-weight: 200;
+	font-weight: 100;
 	line-height: 30px;
 }
 ul {
@@ -48,26 +48,47 @@ ul.friday {
 ul.saturday {
 	list-style: none;
 }
+ul.weatherconditions {
+	list-style: none;
+	text-align: center;
+	color: gray;
+	font-size: small;
+	margin-top: 10px;
+}
+ul.timeupdate {
+	list-style: none;
+	
+}
 
 li.localcity {
 	list-style: none;
+	text-align: center;
 	color: black;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 100;
 	line-height: 30px;
+	margin-bottom: 30px;
+	
 }
 li.localtemperature {
 	list-style: none;
+	text-align: center;
 	color: black;
-	font-size: 20px;
+	font-size: 60px;
 	font-weight: 100;
 	line-height: 30px;
+	margin-top: 20px;
 }
 small.units {
 	font-size: small;
 }
-li.dateandtime {
-	list-style: none;
+li.date {
+	color: black;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 30px;
+}
+li.time {
 	color: black;
 	font-size: 20px;
 	font-weight: 100;
@@ -96,4 +117,7 @@ li.dateandtime {
 	display: inline;
 	margin-left: 0;
 	margin-right: 0;
+}
+.currentlocation-button {
+float: right;
 }
