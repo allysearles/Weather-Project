@@ -1,5 +1,5 @@
 .weather-project-wrapper {
-	max-width: 660px;
+	max-width: 700px;
 	margin: 0 auto;
 }
 .weather-project {
@@ -13,7 +13,7 @@ body {
 }
 
 img {
-	width: 250px;
+	width: 200px;
 	float: left;
 	margin: 0;
 	margin-left: 40px;
@@ -56,12 +56,15 @@ ul.weatherconditions {
 	color: gray;
 	font-size: small;
 	bottom: -10px;
-	padding: 10px;
+	padding: 20px;
 }
 #description {
 	color: black;
 	font-style: bold;
 	font-size: 20px;
+}
+#description:first-letter {
+	text-transform: capitalize;
 }
 ul.timeupdate {
 	list-style: none;
@@ -94,7 +97,7 @@ small.units {
 }
 #date {
 	color: black;
-	font-size: 20px;
+
 	font-weight: 100;
 	line-height: 30px;
 }
@@ -104,8 +107,8 @@ small.units {
 	font-weight: 100;
 	line-height: 30px;
 }
-.city-form {
-	width: 40%;
+.search-form {
+	width: 20%;
 	float: right;
 }
 .container {

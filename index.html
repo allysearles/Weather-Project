@@ -29,35 +29,47 @@
 		></script>
 		<link rel="stylesheet" href="src/styles.css" />
 	</head>
-	<script src="src/index.js"></script>
+
 	<body>
 		<div class="weather-project-wrapper">
 			<div class="weather-project">
 				<div class="container">
-					<div class="row">
-						<div class="col-6">
-							<h1>Weather Forecast</h1>
-							<ul class="timeupdate">
-								<li id="date">Tuesday Feb. 5th 2023</li>
-								<li id="time">1:49 <small class="timeunit"> PM </small></li>
-							</ul>
-						</div>
-						<div class="col-6">
-							<form id="city-form">
+					<form id="search-form" class="mb-3">
+						<div class="row">
+							<div class="col-9">
 								<input
-									type="text"
+									type="search"
 									id="city-input"
 									placeholder="Enter Your City..."
+									class="form-control"
+									autocomplete="off"
 								/>
-								<button type="search" id="searchbutton">Search</button>
-								<button type="search" id="searchbutton">📍</button>
-							</form>
+							</div>
+							<div class="col-3">
+								<input type="submit" value="search" class="btn btn-primary" />
+							</div>
 						</div>
+					</form>
+					<div class="row">
+						<div class="col-5">
+							<h1>Weather Forecast</h1>
+							<ul class="timeupdate">
+								<li>
+									Last Updated: <span id="date">Tuesday Februrary 5th</span>
+								</li>
+							</ul>
+						</div>
+						<div class="col-5"></div>
 					</div>
 
 					<div class="row">
 						<div class="col-6">
-							<img src="src/logo.png" class="logo" alt="weather image" />
+							<img
+								src="https://openweathermap.org/img/wn/10d@2x.png"
+								id="icon"
+								class="logo"
+								alt="weather image"
+							/>
 						</div>
 						<div class="col-6">
 							<ul class="localweather">
@@ -70,7 +82,7 @@
 								<li id="description">Cloudy</li>
 								<li id="precipitation">Precipitation: 0%</li>
 								<li>Humidity: <span id="humidity"></span>%</li>
-								<li>Wind: <span id="wind"></span>km/h</li>
+								<li>Wind: <span id="wind"></span> km/h</li>
 							</ul>
 						</div>
 					</div>
@@ -142,4 +154,5 @@
 			</small>
 		</div>
 	</body>
+	<script src="src/index.js"></script>
 </html>
