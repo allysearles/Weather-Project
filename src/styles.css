@@ -16,7 +16,7 @@ img {
 	width: 250px;
 	float: left;
 	margin: 0;
-	margin-left: 50px;
+	margin-left: 40px;
 	margin-bottom: 20px;
 }
 h1 {
@@ -55,16 +55,16 @@ ul.weatherconditions {
 	text-align: center;
 	color: gray;
 	font-size: small;
-	margin-top: 10px;
+	bottom: -10px;
+	padding: 10px;
+}
+#description {
+	color: black;
+	font-style: bold;
+	font-size: 20px;
 }
 ul.timeupdate {
 	list-style: none;
-	
-}
-#weatherdescription {
-	list-style: none;
-	text-align: center;
-	line-height: 40px;
 }
 #localcity {
 	list-style: none;
@@ -74,7 +74,6 @@ ul.timeupdate {
 	font-weight: 100;
 	line-height: 30px;
 	margin-bottom: 30px;
-	
 }
 #localtemperature {
 	list-style: none;
@@ -87,7 +86,6 @@ ul.timeupdate {
 }
 small.units {
 	font-size: small;
-	
 }
 .units {
 	position: relative;
@@ -131,5 +129,5 @@ small.units {
 	margin-right: 0;
 }
 .currentlocation-button {
-float: right;
+	float: right;
 }
