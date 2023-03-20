@@ -16,6 +16,8 @@ img {
 	width: 250px;
 	float: left;
 	margin: 0;
+	margin-left: 50px;
+	margin-bottom: 20px;
 }
 h1 {
 	color: orange;
@@ -59,8 +61,12 @@ ul.timeupdate {
 	list-style: none;
 	
 }
-
-li.localcity {
+#weatherdescription {
+	list-style: none;
+	text-align: center;
+	line-height: 40px;
+}
+#localcity {
 	list-style: none;
 	text-align: center;
 	color: black;
@@ -70,7 +76,7 @@ li.localcity {
 	margin-bottom: 30px;
 	
 }
-li.localtemperature {
+#localtemperature {
 	list-style: none;
 	text-align: center;
 	color: black;
@@ -81,14 +87,20 @@ li.localtemperature {
 }
 small.units {
 	font-size: small;
+	
 }
-li.date {
+.units {
+	position: relative;
+	font-size: 16px;
+	top: -34px;
+}
+#date {
 	color: black;
 	font-size: 20px;
 	font-weight: 100;
 	line-height: 30px;
 }
-li.time {
+#time {
 	color: black;
 	font-size: 20px;
 	font-weight: 100;
