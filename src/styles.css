@@ -78,7 +78,7 @@ ul.timeupdate {
 	line-height: 30px;
 	margin-bottom: 30px;
 }
-#localtemperature {
+.weather {
 	list-style: none;
 	text-align: center;
 	color: black;
@@ -87,14 +87,22 @@ ul.timeupdate {
 	line-height: 30px;
 	margin-top: 20px;
 }
-small.units {
-	font-size: small;
+.weather .active {
+	color: black;
+	cursor: default;
+	text-decoration: none;
 }
+.weather .active:hover {
+	text-decoration: none;
+}
+
 .units {
+	text-decoration: none;
 	position: relative;
 	font-size: 16px;
 	top: -34px;
 }
+
 #date {
 	color: black;
 
