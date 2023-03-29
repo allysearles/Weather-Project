@@ -12,8 +12,8 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-	width: 200px;
+img.logo {
+	width: 150px;
 	float: left;
 	margin: 0;
 	margin-left: 40px;
@@ -141,4 +141,18 @@ ul.timeupdate {
 }
 .currentlocation-button {
 	float: right;
+}
+.weather-forecast {
+	margin-top: 20px;
+	text-align: center;
+}
+.weather-forecast-date {
+	font-size: 16px;
+	color: grey;
+}
+.weather-forecast-temperatures {
+	font-size: 13px;
+}
+.weather-forecast-temperatures-min {
+	opacity: 0.5;
 }
