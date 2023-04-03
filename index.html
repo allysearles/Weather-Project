@@ -36,7 +36,8 @@
 				<div class="container">
 					<form id="search-form" class="mb-3">
 						<div class="row">
-							<div class="col-9">
+							<div class="col-5"></div>
+							<div class="col-5">
 								<input
 									type="search"
 									id="city-input"
@@ -45,21 +46,26 @@
 									autocomplete="off"
 								/>
 							</div>
-							<div class="col-3">
-								<input type="submit" value="search" class="btn btn-primary" />
+							<div class="col-2">
+								<input
+									type="submit"
+									value="Search"
+									class="btn btn-primary"
+									id="search-button"
+								/>
 							</div>
 						</div>
 					</form>
 					<div class="row">
-						<div class="col-5">
+						<div class="col-7">
 							<h1>Weather Forecast</h1>
 							<ul class="timeupdate">
 								<li>
-									Last Updated: <span id="date">Tuesday Februrary 5th</span>
+									Last Update: <span id="date">Tuesday Februrary 5th</span>
 								</li>
 							</ul>
 						</div>
-						<div class="col-5"></div>
+						<div class="col-6"></div>
 					</div>
 
 					<div class="row">
@@ -88,61 +94,6 @@
 							</ul>
 						</div>
 					</div>
-					<!-- <div>
-						<p class="sevendays">7 DAY FORECAST</p>
-						<div class="row">
-							<div class="col">
-								<ul class="sunday">
-									<li class="sunday-emoji">☀️</li>
-									<li class="sunday-day">SUN</li>
-									<li class="sunday-weather">55°</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="monday">
-									<li class="monday-emoji">☁️</li>
-									<li class="monday-day">MON</li>
-									<li class="monday-weather">52°</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="tuesday">
-									<li class="tuesday-emoji">🌧️</li>
-									<li class="tuesday-day">TUE</li>
-									<li class="tuesday-weather">65°</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="wednesday">
-									<li class="wednesday-emoji">⛈️</li>
-									<li class="wednesday-day">WED</li>
-									<li class="wednesday-weather">44°</li>
-								</ul>
-							</div>
-
-							<div class="col">
-								<ul class="thursday">
-									<li class="thursday-emoji">🌧️</li>
-									<li class="thursday-day">THU</li>
-									<li class="thursday-weather">50°</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="friday">
-									<li class="friday-emoji">⛅</li>
-									<li class="friday-day">FRI</li>
-									<li class="friday-weather">53°</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="saturday">
-									<li class="saturday-emoji">☀️</li>
-									<li class="saturday-day">SAT</li>
-									<li class="saturday-weather">59°</li>
-								</ul>
-							</div>
-						</div>
-					</div> -->
 				</div>
 				<div class="weather-forecast" id="forecast"></div>
 			</div>
@@ -151,9 +102,8 @@
 					href="https://github.com/allysearles/Weather-Project.git"
 					target="_blank"
 				>
-					Open-source code
-				</a>
-				by @allysearles
+					Open-source code </a
+				><strong>by @allysearles</strong>
 			</small>
 		</div>
 	</body>
